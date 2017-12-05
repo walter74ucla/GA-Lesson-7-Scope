@@ -19,9 +19,9 @@ _After this lesson students will be able to:_
 
 ## Setup
 
-In `student_examples` for today, make a file `scope.js`
+In the directory you use for lessons, make a file `scope.js`
 
-Test that a console.log will appear in Terminal when you run the file.
+Write a console.log in the file, and test that it will appear in Terminal when you run the file.
 
 ```
 $ node scope.js
@@ -29,8 +29,6 @@ $ node scope.js
 
 <br>
 <hr>
-
-3:05
 
 # SCOPE
 
@@ -91,8 +89,6 @@ This is not so great. In general, we want to control our scope as tightly as pos
 <br>
 <hr>
 
-3:12
-
 ## Scope flow: outside in
 
 We know if we declare a variable inside a block that it is not accessible outside.
@@ -115,8 +111,6 @@ const words = 'that\'s a...';
 
 <br>
 <hr>
-
-3:15
 
 ## Scope flow: blocks within blocks
 
@@ -143,8 +137,6 @@ const words = 'that\'s a...';
 >
 > => spicy meatball
 
-3:20
-
 &#x1F535; **Activity (5 mins)**
 
 Declare a variable and try to access it from a scope where it **cannot** be accessed (verify that it cannot be accessed).
@@ -155,8 +147,6 @@ What if ...? What if you omit `let` or `const` when declaring your variable? Run
 
 <br>
 <hr>
-
-3:25
 
 ## Scope: functions
 
@@ -234,8 +224,6 @@ The `item` variable is not visible inside `getItem`, because it is scoped only t
 <br>
 <hr>
 
-3:35
-
 ## Scope: Loops
 
 Using `let` within a for loop control panel scopes the variable to the block.
@@ -268,8 +256,6 @@ Verify: is the variable accessible outside of the loop when you use neither **va
 Verify: is the variable accessible outside of the loop with **let**?
 
 Verify: What about a **let** variable defined within the block of the loop?
-
-3:48
 
 ## Scope: Conditionals
 
@@ -315,8 +301,6 @@ console.log(message);
 <br>
 <hr>
 
-3:56
-
 # GLOBAL SCOPE
 
 When variables are declared outside of any enclosing blocks, the value of the variable is accessible to all other blocks and functions (and all blocks and functions within those functions). 
@@ -352,8 +336,6 @@ http://stackoverflow.com/questions/8862665/what-does-it-mean-global-namespace-wo
 <br>
 <hr>
 
-4:03
-
 ## Functions can call other functions 
 
 Functions can call other functions that reside in an accessible scope. A function may use the **return value** of another function. This is a good strategy for compartmentalizing functionality.
@@ -368,8 +350,6 @@ Let's build two interacting functions from the ground up, both will be defined i
 
 <br>
 <hr>
-
-4:15
 
 ## ADVANCED: Functions can call themselves
 

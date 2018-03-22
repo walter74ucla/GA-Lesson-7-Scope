@@ -1,0 +1,36 @@
+=========================================
+w01d04
+Lesson 2
+
+Instructor: Alex White
+
+Markdown: https://git.generalassemb.ly/wdi-wc-march2018/Scope
+
+Zoom: https://generalassembly.zoom.us/j/219820979
+
+
+#w01d03 #scope #let #const #js
+=========================================
+
+
+
+Notes:
+
+*Activity*
+
+- Declare a variable and try to access it from a scope where it cannot be accessed (verify that it cannot be accessed).
+- Declare a variable ommiting let or const (or var)
+- Run some tests on accessibility of that second variable. Accessibility within a block, outside a block, etc.
+- 3 min, thumbs up when done, raised hand to volunteer to explain what happens when you ommit let/const
+
+
+=========================================
+
+*Activity*
+
+- Write a for loop but use var instead of let. Verify: is the variable accessible outside the loop after it has run?
+- Verify: is the variable accessible outside of the loop when you use neither var nor let ? (nor const).
+- Verify: is the variable accessible outside of the loop with let?
+- Verify: What about a let variable defined within the block of the loop?
+- 10 minutes, thumbs up when done
+

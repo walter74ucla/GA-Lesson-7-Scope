@@ -137,13 +137,13 @@ const words = 'that\'s a...';
 >
 > => spicy meatball
 
-&#x1F535; **Activity (5 mins)**
+&#x1F535; **Activity**
 
 Declare a variable and try to access it from a scope where it **cannot** be accessed (verify that it cannot be accessed).
 
-&#x1F535; **Activity**
+**What if ...?**
 
-What if ...? What if you omit `let` or `const` when declaring your variable? Run some tests on accessibility. Accessibility within a block, outside a block, etc.
+What if you omit `let` or `const` when declaring your variable? Run some tests on accessibility. Accessibility within a block, outside a block, etc.
 
 <br>
 <hr>

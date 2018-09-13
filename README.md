@@ -15,17 +15,6 @@ _After this lesson students will be able to:_
 * Use `const` and `let` for block-scoping
 * Differentiate between global and local scope
 
----
-
-## Setup
-
-In the directory you use for lessons, make a file `scope.js`
-
-Write a console.log in the file, and test that it will appear in Terminal when you run the file.
-
-```
-$ node scope.js
-```
 
 <br>
 <hr>

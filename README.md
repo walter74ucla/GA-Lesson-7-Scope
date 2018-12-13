@@ -25,7 +25,7 @@ Scope is the restriction of where in your code your variables can be accessed. I
 
 ## BLOCK SCOPE
 
-**`let`** and **`const`** will scope your variables to the **block** in which they are declared.
+**`let`** and **`const`** will scope your variables to the **block** in which they are declared (lexically scoped).
 
 Example -- make a block and declare a variable within:
 
